@@ -1,0 +1,20 @@
+.header {
+  background-color: #1f1f1f;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Rubik', sans-serif;
+  color: #f7b733;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header > nav > a {
+  font-size: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+  color: #ffcf48;
+}

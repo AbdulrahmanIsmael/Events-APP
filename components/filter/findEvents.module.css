@@ -1,0 +1,80 @@
+.filterForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  margin: 2em 0 0.5em 0;
+}
+
+@media (width <= 650px) {
+  .filterForm {
+    gap: 0.5em;
+  }
+}
+
+@media (width <= 475px) {
+  .filterForm {
+    flex-direction: column;
+    gap: 0.8em;
+  }
+}
+
+.selectFilter {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+@media (width <= 650px) {
+  .selectFilter {
+    gap: 0.1em;
+  }
+}
+
+.selectFilter > :where(label, select) {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  color: #1f1f1f;
+}
+
+@media (width <= 650px) {
+  .selectFilter > :where(label, select) {
+    font-size: 0.8em;
+  }
+}
+
+.selectFilter > select {
+  cursor: pointer;
+  border: 1px solid #1f1f1f;
+  padding: 0.3em;
+}
+
+.selectFilter > select:focus {
+  outline: none;
+}
+
+.filterBtn {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  font-family: 'Rubik', sans-serif;
+  border: 1px solid #1f1f1f;
+  padding: 0.5em 0.9em;
+  margin-left: 1.5em;
+  font-size: 1rem;
+  color: 1f1f1f;
+}
+
+@media (width <= 650px) {
+  .filterBtn {
+    font-size: 0.8rem;
+  }
+}
+
+.filterBtn:hover {
+  color: #eee;
+  background-color: #1f1f1f;
+}
+
+.filterBtn:active {
+  scale: 0.98;
+}

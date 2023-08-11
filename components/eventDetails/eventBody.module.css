@@ -1,0 +1,64 @@
+.eventBody {
+  width: 45vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+  background-color: #eee;
+  padding: 1.5em 2em;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  translate: 0 -30%;
+}
+
+@media (width <= 800px) {
+  .eventBody {
+    padding: 1.5em 0;
+    padding-top: 0;
+    width: 60vw;
+  }
+}
+
+@media (width <= 440px) {
+  .eventBody {
+    width: 80vw;
+  }
+}
+
+.eventBody > img {
+  max-width: 100%;
+  width: 13vw;
+  height: 30vh;
+  border-radius: 500px;
+  object-fit: cover;
+}
+
+@media (width <= 800px) {
+  .eventBody > img {
+    border-radius: 0;
+    height: initial;
+    width: 100%;
+  }
+}
+
+@media (width <= 340px) {
+  .eventBody > img {
+  }
+}
+
+.eventBody > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.eventBody > div > time {
+  font-size: 1.6rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.eventBody > div > address {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

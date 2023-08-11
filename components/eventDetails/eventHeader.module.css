@@ -1,0 +1,22 @@
+.eventHeader {
+  height: 40vh;
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.5em 1em;
+}
+
+.eventHeader > h1 {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 0.5em;
+}
+
+@media (width <= 380px) {
+  .eventHeader > h1 {
+    font-size: 2rem;
+  }
+}

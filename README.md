@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Events APP
 
-## Getting Started
+- This app is developed using Next.js. it is used to show the latest important events around the world.
+- The app uses a dummy data which is some events with its information.
+- It is a simple app with a purpose of improving **Next.js** skill.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- With **Next.js** the app now can render from the server instead of rendering in the client-side, and that's one of the most important features in **Next.js**.
+- Using filter system to render filtered data.
+- Easy navigation between pages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tools
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Next.js
+- React.js
+- CSS - CSS3
+- HTML - HTML5
+- JavaScript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
 
-## Learn More
+![home](./screenshots/home.png)
+![events](./screenshots/events.png)
+![filtered events](./screenshots/filtered%20events.png)
+![event](./screenshots/event%20page.png)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 About Me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Junior Front-end developer with a history of creating engaging, user-friendly websites with proven success. Developed modern websites with advanced features, showcasing technical excellence. Motivated to stay up-to-date with industry trends and best practices. Aspiring to be a Full-stack developer with a strong determination and passion for coding.
 
-## Deploy on Vercel
+## 🛠 Skills
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- HTML/HTML5
+- CSS/CSS3
+- JavaScript
+- Object Oriented Programming (OOP)
+- Sass\SCSS
+- Pug
+- GulpJs
+- BootStrap
+- Material UI
+- React.js
+- React ecosystems (React Router - React Redux - React Query)
+- Redux - Redux Toolkit
+- Firebase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrahmanismael/)
