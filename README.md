@@ -1,13 +1,11 @@
 # Events APP
 
-- This app is developed using Next.js. it is used to show the latest important events around the world.
-- The app uses a dummy data which is some events with its information.
-- It is a simple app with a purpose of improving **Next.js** skill.
+This website is developed using Next.js. It is used to show the latest important events around the world. It uses dummy data, which is some events with its information. It looks like a simple app, but the purpose is to improve Next.js skills.
 
 ## Features
 
-- With **Next.js** the app now can render from the server instead of rendering in the client-side, and that's one of the most important features in **Next.js**.
-- Using filter system to render filtered data.
+- With **Next.js** the app can now render from the server instead of rendering on the client side, and that's one of the most important features in **Next.js**.
+- Using a filter system to render filtered data.
 - Easy navigation between pages.
 
 ## Tools
